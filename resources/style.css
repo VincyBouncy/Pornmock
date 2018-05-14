@@ -1,0 +1,203 @@
+html {
+  font-size: 18px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Helvetica";
+  color: white;
+  background-color: black;
+  width:960px;
+}
+
+h1 {
+  font-size: 5rem;
+  font-family: Helvetica;
+  color: white;
+  text-align: left;
+}
+
+h3 {
+  text-align: center;
+  font-size: 2.5rem;
+  background-color: black;
+}
+
+h2 {
+  font-size: 4rem;
+  font-family: Helvetica;
+  color: white;
+  text-align: left;
+}
+
+.container {
+  width: 960px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+span {
+  font-size: 1.5rem;
+  display: block;
+  padding-top: 2rem;
+  font-family: Georgia;
+}
+
+/*HeaderStyling*/
+
+.logo-img {
+  height: 1.5rem;
+  width: auto;
+  margin-left: 0.5rem;
+  margin-right: 1rem;
+  display: flex;
+  margin: 0.75;
+  background-color: white;
+}
+
+.logo {
+  width: 100%;
+  display: flex;
+  padding-bottom: 0.5rem;
+}
+
+.logo-img,
+span {
+  padding-top: 0.5rem;
+}
+
+/*MotoStuff Styling*/
+
+.main-banner {
+  width: 960px;;
+  height: 25rem;
+  background-image: url("https://pbs.twimg.com/media/Dc_j-TSX4AIlAzu.jpg:large");
+  background-size: 960px;
+  background-repeat: no-repeat;
+  background-position: left;
+  display: flex;
+  justify-content: left;
+  padding-left: 6rem;
+  font-size: 5rem;
+}
+
+.text1 {
+  width: 18rem;
+  height: 0.2rem;
+  padding-top: 2rem;
+  padding-bottom: 10rem;
+  padding-left: 2rem;
+  margin-top: 9rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+/*Nav Styling*/
+
+.nav {
+  background-color: firebrick;
+  display: flex;
+}
+
+.nav span {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 4.3rem;
+  display: space-between;
+  text-align: center;
+  font-family: "Helvetica";
+
+}
+
+/*Product Grid Styling*/
+
+.product-grid {
+  display: flex;
+  height: 18rem;
+  background-color: white;
+}
+
+.product-img {
+  display: block;
+  height: 11rem;
+  width: 13rem;
+  margin-top: 2rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.piss-img {
+  height: 11rem;
+  width: 13rem;
+  padding-top: 1.75rem;
+  padding-left: 2.5rem;
+}
+
+.img-caption {
+  background-color: black;
+  text-align: center;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  margin-left: 45px;
+  width: 100%;
+}
+
+/*LOCATIONS AND HOURS STYLING*/
+
+.location {
+  display: flex;
+  margin: 0;
+  background-color: white;
+  height: 8rem;
+}
+
+.location-caption {
+  height: 2.5rem;
+  width: 35%;
+  margin-top: 2rem;
+  margin-left: 4.5rem;
+  margin-right: 1rem;
+  background-color: black;
+}
+
+/*FOOTER STYLING*/
+
+.footer {
+  height: 5rem;
+  background-color: black;
+  padding-top: 3rem;
+  padding-left: 1rem;
+}
+
+.footer span {
+  display: inline-block;
+}
+
+@media only screen and (max-width: 1024px) {
+  .mobile-nav {
+    display: block;
+    text-align: center;
+  }
+}
+
+#blink_text {
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  animation: blink 0.5s infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1.0;
+  }
+  50% {
+    opacity: 0.0;
+  }
+  100% {
+    opacity: 1.0;
+  }
+}
